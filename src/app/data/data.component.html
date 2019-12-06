@@ -1,0 +1,11 @@
+<div class="pagetitle">
+  <h2>Upcoming Events</h2>
+</div>
+<div class="desc">See what's happening soon in your area.</div>
+<div class="container" *ngFor="let item of data">
+  <div class="title">{{ item.id }}. {{ item.title }}</div>
+  <div class="description">{{ item.body }}</div>
+  <div class="participants">
+    27 Members<span style="float:right" class="attendbtn">Attend</span>
+  </div>
+</div>

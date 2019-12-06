@@ -1,0 +1,87 @@
+.container {
+  margin: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px 30px;
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  background-color: #fff;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #c5c4c4;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.container:hover {
+  opacity: 1;
+  border-color: rgba(0, 0, 0, 0.507);
+}
+
+.title {
+  font-size: 20px;
+  color: #0098ab;
+  font-weight: bold;
+}
+
+.pagetitle {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  font-size: 20px;
+  color: #212121;
+  font-weight: bold;
+  cursor: default;
+}
+
+.desc {
+  text-align: center;
+  font-size: 18px;
+  margin: -20px 0px 20px 0px;
+  color: #212121;
+  font-weight: 400;
+  cursor: default;
+}
+
+.category {
+  margin: 10px 0px;
+  font-size: 18px;
+  color: #585858;
+  cursor: pointer;
+}
+
+.description {
+  margin: 10px 0px;
+  font-size: 16px;
+  color: #212121;
+}
+
+.participants {
+  margin: 20px 10px 10px 0px;
+  font-size: 16px;
+  color: #585858;
+}
+
+.attendbtn {
+  background-color: #fff;
+  border-radius: 6px;
+  border-color: #0098ab;
+  color: #0098ab;
+  font-size: 18px;
+  margin-top: -15px;
+  padding: 10px 20px;
+  border: 1px solid;
+  font-weight: Bold;
+  cursor: pointer;
+}
+
+.attendbtn:hover {
+  background-color: #0098ab;
+  color: #fff;
+}
+
+.pagecontrol {
+  text-align: center;
+  font-size: 18px;
+  font-family: Montserrat, "Helvetica Neue", Arial, sans-serif;
+}
